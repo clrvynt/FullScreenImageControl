@@ -2,11 +2,12 @@
 //  KKAppDelegate.m
 //  FullScreenImageControl
 //
-//  Created by kalyankrishnamurthi on 5/3/13.
+//  Created by clrvynt on 5/3/13.
 //  Copyright (c) 2013 clrvynt. All rights reserved.
 //
 
 #import "KKAppDelegate.h"
+#import "KKHomeViewController.h"
 
 @implementation KKAppDelegate
 
@@ -15,6 +16,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    KKHomeViewController *_home = [[KKHomeViewController alloc] initWithNibName:@"KKHomeViewController" bundle:nil];
+    self.window.rootViewController = _home;
+
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -2,7 +2,7 @@
 //  KKAppDelegate.h
 //  FullScreenImageControl
 //
-//  Created by kalyankrishnamurthi on 5/3/13.
+//  Created by clrvynt on 5/3/13.
 //  Copyright (c) 2013 clrvynt. All rights reserved.
 //
 
